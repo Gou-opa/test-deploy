@@ -14,6 +14,7 @@ phases:
         - echo "getting environment for nodejs"
         - npm install -g mongoose
         - npm install -g mocha
+        - npm install
         - echo "end install dependancies"
   pre_build:
     commands:

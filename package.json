@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Gou-opa/test-deploy#readme",
   "dependencies": {
-    "mongoose": "^5.4.0",
-    "mocha" : "^5.2.0"
+    "mocha": "^5.2.0",
+    "mongoose": "^5.4.0"
   }
 }
