@@ -12,7 +12,6 @@ phases:
   install:
     commands:
         - echo "getting environment for nodejs"
-        - npm install -g mongoose
         - npm install -g mocha
         - npm install
         - echo "end install dependancies"
@@ -21,7 +20,7 @@ phases:
         - echo "start building" 
   build:
     commands:
-        - mocha ./bin/www
+        - node ./bin/www
   post_build:
     commands:
         - echo Build completed on `date`
