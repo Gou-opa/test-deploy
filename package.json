@@ -1,23 +1,17 @@
 {
   "name": "test-deploy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "node app"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gou-opa/test-deploy.git"
-  },
-  "author": "Gou",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Gou-opa/test-deploy/issues"
-  },
-  "homepage": "https://github.com/Gou-opa/test-deploy#readme",
   "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
     "mocha": "^5.2.0",
-    "mongoose": "^5.4.0"
+    "morgan": "~1.9.0"
   }
 }

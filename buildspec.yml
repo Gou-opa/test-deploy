@@ -21,14 +21,14 @@ phases:
         - echo "start building" 
   build:
     commands:
-        - mocha app.js
+        - mocha ./bin/www.js
   post_build:
     commands:
         - echo Build completed on `date`
       # - command
 artifacts:
-  files:
-    - app.js
+  #files:
+    # - app.js
     # - location
   #discard-paths: yes
   #base-directory: location
