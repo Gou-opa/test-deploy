@@ -12,7 +12,6 @@ phases:
   install:
     commands:
         - echo "getting environment for nodejs"
-        - cd React_front
         - npm install -g mongoose
         - npm install -g mocha
         - echo "end install dependancies"
