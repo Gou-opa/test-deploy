@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-var url = 'mongodb://192.168.1.16:27017/ezfood';
+var url = 'mongodb://chitbi.ddns.net:27017/ezfood';
 mongoose.url = url;
 mongoose.connect(url);
 mongoose.Promise = global.Promise;
