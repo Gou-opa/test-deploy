@@ -27,7 +27,7 @@ phases:
       # - command
 artifacts:
   files:
-    - HelloWorld.js
+    - app.js
     # - location
   #discard-paths: yes
   #base-directory: location
