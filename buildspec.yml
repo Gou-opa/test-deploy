@@ -21,7 +21,7 @@ phases:
         - echo "start building" 
   build:
     commands:
-        - mocha ./bin/www.js
+        - mocha ./bin/www
   post_build:
     commands:
         - echo Build completed on `date`
